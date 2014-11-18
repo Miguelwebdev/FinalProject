@@ -23,21 +23,86 @@
         background-size: cover;
     }
 
-        .link
+        .tittle
         {
-            width:10%;
-            border-radius:100%;
-            height:10%;
-            background-color: grey;
+            font-family:arial;
+            font-size:350%;
             color: white;
             position:absolute;
-            top:30%;
-            left:10%;
-            text-align:center;
+            top:5%;
+            left:20%;
+            text-shadow: 0.1em 0.1em #333;
         }
+
+        .presentation
+        {
+
+            font-family: arial;
+            font-size: 232%;
+            color: white;
+            position: absolute;
+            top: 30%;
+            left: 33%;
+            text-align: center;
+
+                        
+        }
+
+        .link, 
+        .link2, 
+        .link3,
+        .link4
+        {
+            width: 13%;
+            border: 3px solid white;
+            border-radius: 100%;
+            height: 23%;
+            background-color: transparent;
+            color: white;
+            position: absolute;
+            
+        }
+
+        .link
+        {
+            top: 38%;
+            left: 15%;
+            text-align: center;
+        }
+
+        .link2
+        {
+            top: 60%;
+            left: 34%;
+            text-align: center;
+        }
+
+        .link3
+        {
+            top: 60%;
+            left: 54%;
+            text-align: center;
+        }
+
+        .link4
+        {
+            top: 38%;
+            left: 72%;
+            text-align: center;
+        }
+
 
             .grunge
             {
-                padding-top:18%;
-                padding-left:4%;
+                padding-top: 39%;
+                padding-left: 4%;
             }
+
+                .text1
+                {
+                    color: white;
+                    font-family: arial;
+                    font-size:189%;
+
+                }
+
