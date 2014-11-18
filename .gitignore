@@ -17,3 +17,6 @@
 
 #Ignoro las imagenes del slider
 *.jpg
+
+#Ignoro las imagenes del slider
+*.png

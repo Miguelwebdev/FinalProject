@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/front' => 'pages#front'
+  get '/grunge' => 'pages#grunge'
 end
 
 
