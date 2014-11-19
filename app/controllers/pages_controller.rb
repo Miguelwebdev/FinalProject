@@ -4,7 +4,18 @@ class PagesController < ApplicationController
   end
 
   def grunge
+    render layout: 'grayscaleFather'
+  end
+
+  def rock
    
   end
 
+  def jazz
+   
+  end
+
+  def pop
+
+  end
 end
