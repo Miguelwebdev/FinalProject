@@ -12,6 +12,6 @@
  *
  *= require 'bootstrap.min' 
  *= require 'bootstrap-theme.min' 
- *= require 'pages' 
- *= require_self 
+ *= require 'pages'
+  *= require_self 
  */
