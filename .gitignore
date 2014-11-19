@@ -20,3 +20,6 @@
 
 #Ignoro las imagenes del slider
 *.png
+
+#Ignoro las canciones
+*.mp3

@@ -13,6 +13,7 @@
  *= require 'bootstrap.min' 
  *= require 'bootstrap-theme.min' 
  *= require 'grayscale'
+ *= require 'audio'
  *= require 'font-awesome.min.css' 
  *= require_self 
  */
