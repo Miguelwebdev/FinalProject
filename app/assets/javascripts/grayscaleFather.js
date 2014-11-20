@@ -15,3 +15,4 @@
 //= require bootstrap.min
 //= require pages
 //= require grayscale
+//= require slider

@@ -9,7 +9,7 @@
                     <i class="fa fa-play-circle"></i>  <span class="light">Grunge</span> Wikipedia
                 </a>
             </div>
-            <audio class = "margAudio" src = "/audio/smellLike.mp3" autoplay controls></audio>
+            <audio class = "margAudio" src = "/audio/smellLike.mp3" "/audio/once.mp3" autoplay = "true" controls loop ="true"></audio>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -26,6 +26,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Ruta</a>
+                    </li>
+                    <li>
+                        <%= link_to 'Inicio', front_path %>
                     </li>
                 </ul>
             </div>
@@ -64,12 +67,38 @@
 
     <!-- Download Section -->
     <section id="download" class="content-section text-center">
-        <div class="download-section">
+        <div class="download-section pos-div">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <article class = "city1">
+                        <p class = "marginCity">Seattle</p>
+                        <%= image_tag "/images/seattle.png", :class => "dimImag", :name=> "slide" %>
+                        <p class = "marginGrunge">Es la ciudad más grande del Estado de Washington, en el noroeste de los Estados Unidos de América. El área metropolitana de la ciudad comprende Seattle-Tacoma-Bellevue, es la 15.ª más poblada del país y la mayor del Noroeste del Pacífico.2 La ciudad está situada entre el Lago Washington y la bahía conocida como Puget Sound, junto al océano Pacífico. Importante centro cultural, educativo y económico de la región, Seattle es sede del condado de King.  es famosa por ser la tierra natal de la música grunge también conocida como el sonido de Seattle,8 y de bandas que impulsaron ese movimiento a comienzos de los 90 como Nirvana, Pearl Jam, Soundgarden y Alice in Chains.
+                         </p>
+                    </article>
+
+                    <article class = "city1">
+                        <p class = "marginCity">San Diego</p>
+                        <%= image_tag "/images/sanDiego1.jpg", :class => "dimImag", :name=> "slide2" %>
+                        <p class = "marginGrunge">
+                             Es una ciudad situada en el extremo suroeste del estado de California (Estados Unidos) y, por lo tanto, al extremo suroeste continental de los Estados Unidos. Con una población en el censo de 2010 de 1 307 402 habitantes,1 San Diego es la octava ciudad con mayor número de habitantes en Estados Unidos. La ciudad hace frontera con Tijuana, Baja California, México a 24 km de distancia. Capital del Condado de San Diego, la ciudad tiene fama por su clima templado mediterráneo y sus extensas playas. Es además la sede de la mayor flota naval en el mundo, incluyendo dos súper-portaaviones de la armada, el USS Nimitz (CVN-68) y el USS Ronald Reagan (CVN-76), cinco naves de asalto anfibio, varios submarinos nucleares, destructores y muchas naves menores. Uno de los dos mayores centros de reclutamiento de la infantería de marina se ubica aquí.
+                    </article>
+                        
+                    <article class = "city1">
+                        
+                        <p class = "marginCity">Londres</p>
+                        <%= image_tag "/images/londres1.jpg", :class => "dimImag", :name=> "slide3" %>
+                            <p class = "marginGrunge">Londres es una de las capitales mundiales de la música clásica y popular y sede de grandes sellos discográficos, como EMI, así como hogar de incontables grupos de música, músicos y profesionales de la industria. En la ciudad hay también varias orquestas y salas de conciertos, como el Barbican Centre (base de la Orquesta Sinfónica de Londres, donde se llevará a cabo Wikimanía 2014 en agosto de ese año), Cadogan Hall (Orquesta Filarmónica Real) y el Royal Albert Hall (los Proms).221 Los dos teatros principales de ópera son la Royal Opera House y el London Coliseum.221 Por supuesto, en la ciudad existen numerosos conservatorios de música: la Royal Academy of Music, el Royal College of Music, la Guildhall School of Music and Drama y el Trinity Laban Conservatoire of Music and Dance.
+                            Los Abbey Road Studios en el n.º 3 de la calle Abbey Road, Ciudad de Westminster, Londres. En la ciudad hay gran cantidad de lugares para conciertos de música rock y pop, entre ellos grandes estadios como Earls Court, Wembley Arena y O2 Arena, y locales de tamaño mediano como Brixton Academy, Hammersmith Apollo y Shepherds Bush Empire.</p>
+                        
+                    </article>
+                    <article class = "city1">
+                        <p class = "marginCity">Merewether</p>
+                        <%= image_tag "/images/merewether_1.jpg", :class => "dimImag", :name=> "slide4" %>
+                        <p class = "marginGrunge">Merewether es un suburbio de Newcastle , Nueva Gales del Sur , Australia , situado a 3 km (2 millas) de del Newcastle distrito central de negocios con una población de alrededor de 10.000. El barrio se extiende 3 kilometros (2 millas) de Merewether Beach en el este hasta Adamstown en el oeste.
+                        El suburbio de Merewether incluye algunas de las playas más famosas de Newcastle. Dixon Park Beach conduce hacia el sur en la playa de Merewether y un poco más a la más aislada Burwood Beach, que conduce a la Laguna de Glenrock . En el extremo sur de la playa de Merewether son la Merewether océano baños, los baños más grandes del océano en el hemisferio sur.
+                        </p>
+                    </article>
                 </div>
             </div>
         </div>
