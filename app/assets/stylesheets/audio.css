@@ -5,3 +5,31 @@
 	top:20%;
 	left:23%;
 }
+
+
+.colocFooter
+{
+
+	height:100px;
+	background-image:url('/images/grungeImage2.jpg');
+}
+
+	.ulFooter
+	{
+		list-style:none;
+		margin-left:1%;
+
+	}
+		.footLiGrunge
+		{
+			margin: 0% 9%;
+			float: left;
+			font-family: arial;
+			font-size: 20px;
+
+		}
+
+		.darkLetter
+		{
+			text-shadow: 1px 1px black;
+		}
