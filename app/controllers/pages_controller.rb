@@ -17,6 +17,6 @@ class PagesController < ApplicationController
   end
   
   def jazz
-    
+     render layout: 'grayscaleFather4'
   end
 end

@@ -44,6 +44,7 @@
             top: 30%;
             left: 36%;
             text-align: center;
+            text-shadow: 0.1em 0.1em #333;
 
                         
         }
@@ -114,6 +115,8 @@
                     color: white;
                     font-family: arial;
                     font-size:189%;
+                    text-shadow: 0.1em 0.1em #333;
+
 
                 }
                 

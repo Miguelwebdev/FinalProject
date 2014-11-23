@@ -1,1 +1,130 @@
-<h1>Pagina del jazz</h1>
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://es.wikipedia.org/wiki/Jazz">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Jazz</span> Wikipedia
+                </a>
+            </div>
+            <audio class = "margAudio" src = "/audio/smellLike.mp3" "/audio/once.mp3" autoplay = "true" controls loop ="true"></audio>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Grupos principales</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Que visitar</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Ruta</a>
+                    </li>
+                    <li>
+                        <%= link_to 'Inicio', front_path %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro jazzHeader ">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading darkLetter">Ruta del</br> Jazz</h1>
+                        <p class="intro-text darkLetter">Auténticos<br>maestros del Jazz</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Sin Seattle no hay Grunge</h2>
+                <p>Comenzamos con <a href="www.nirvana.com">Nirvana,</a>que fue un grupo estadounidense procedente de Aberdeen, Washington. Con el éxito del sencillo "Smells Like Teen Spirit", del álbum Nevermind, fueron un icono de los 90's.El viernes 8 de abril de 1994, el cuerpo sin vida de Cobain fue descubierto por un electricista en su casa de Seattle, dando así fin a Nirvana (de no haber sido por eso seguro que habría sido una de las mejores bandas de rock de la actualidad). <a href="http://pearljam.com/">Pearl Jam</a> es una banda de rock formada en Seattle, Estados Unidos, en el año 1990. Siempre se ha caracterizado por su rechazo a adherirse a las prácticas comunes de la industria musical (es considerado uno de los grupos más importantes de la década los 90). Continuamos con <a href="http://stonetemplepilots.com/">Stone Temple Pilots</a>, que fueron contemporáneos de Pearl Jam, Nirvana, <a href="http://www.aliceinchains.com/">Alice in Chains</a> o <a href="http://soundgarden.shop.bravadousa.com/">Soundgarden</a>, entre otros. A pesar de sufrir notorias acusaciones de copiar el estilo de otros grupos, Stone Temple Pilots sobrevivió a las feroces críticas y escribió su particular página en la historia de la música con cinco LP's autónomos y el progresivo desarraigo con las tendencias y modas musicales del momento. <a href="http://bushofficial.com/">Bush</a> es una banda inglesa formada en Londres en 1992. En la temporada 19 de la famosa serie de televisión "The Simpsons", en el capítulo llamado "El show de los 90's", Homer hace una version de Glycerine (una de las canciones mas conocidas de esta banda). <a href="http://www.blindmelon.com/">Blind Melon</a>, se formó en el estado de California. Su actividad se extendió desde 1989 hasta 1995. La banda paso algún tiempo en receso debido a la muerte de su vocalista Shannon Hoon en 1995, aunque fue reformada en 2006 al ser sustituido Hoon por Travis Warren. Acabamos con <a href="http://www.chairpage.com/news/">Silverchair</a>, que fue una banda australiana que irrumpió en el mercado a finales del año 1994, con su primer y exitoso single "Tomorrow". El video clip de la canción tuvo una muy buena rotación en la cadena musical MTV lo cual le permitió tener un masivo éxito tambien en los Estados Unidos. Ya en el año 1995 lanzan lo que sería su primer álbum, "Frogstomp", obteniendo un gran éxito, logrando vender alrededor de 2,5 millones de copias en todo el mundo.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section pos-div grungeSecond">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <article class = "city1">
+                        <p class = "marginCity">Seattle</p>
+                        <%= image_tag "/images/seattle.png", :class => "dimImag", :name=> "slide" %>
+                        <p class = "marginGrunge">Es la ciudad más grande del Estado de Washington, en el noroeste de los Estados Unidos de América. El área metropolitana de la ciudad comprende Seattle-Tacoma-Bellevue, es la 15.ª más poblada del país y la mayor del Noroeste del Pacífico.2 La ciudad está situada entre el Lago Washington y la bahía conocida como Puget Sound, junto al océano Pacífico. Importante centro cultural, educativo y económico de la región, Seattle es sede del condado de King.  es famosa por ser la tierra natal de la música grunge también conocida como el sonido de Seattle,8 y de bandas que impulsaron ese movimiento a comienzos de los 90 como Nirvana, Pearl Jam, Soundgarden y Alice in Chains.
+                         </p>
+                    </article>
+
+                    <article class = "city1">
+                        <p class = "marginCity">San Diego</p>
+                        <%= image_tag "/images/sanDiego1.jpg", :class => "dimImag", :name=> "slide2" %>
+                        <p class = "marginGrunge">
+                             Es una ciudad situada en el extremo suroeste del estado de California (Estados Unidos) y, por lo tanto, al extremo suroeste continental de los Estados Unidos. Con una población en el censo de 2010 de 1 307 402 habitantes,1 San Diego es la octava ciudad con mayor número de habitantes en Estados Unidos. La ciudad hace frontera con Tijuana, Baja California, México a 24 km de distancia. Capital del Condado de San Diego, la ciudad tiene fama por su clima templado mediterráneo y sus extensas playas. Es además la sede de la mayor flota naval en el mundo, incluyendo dos súper-portaaviones de la armada, el USS Nimitz (CVN-68) y el USS Ronald Reagan (CVN-76), cinco naves de asalto anfibio, varios submarinos nucleares, destructores y muchas naves menores. Uno de los dos mayores centros de reclutamiento de la infantería de marina se ubica aquí.
+                    </article>
+                        
+                    <article class = "city1">
+                        
+                        <p class = "marginCity">Londres</p>
+                        <%= image_tag "/images/londres1.jpg", :class => "dimImag", :name=> "slide3" %>
+                            <p class = "marginGrunge">Londres es una de las capitales mundiales de la música clásica y popular y sede de grandes sellos discográficos, como EMI, así como hogar de incontables grupos de música, músicos y profesionales de la industria. En la ciudad hay también varias orquestas y salas de conciertos, como el Barbican Centre (base de la Orquesta Sinfónica de Londres, donde se llevará a cabo Wikimanía 2014 en agosto de ese año), Cadogan Hall (Orquesta Filarmónica Real) y el Royal Albert Hall (los Proms).221 Los dos teatros principales de ópera son la Royal Opera House y el London Coliseum.221 Por supuesto, en la ciudad existen numerosos conservatorios de música: la Royal Academy of Music, el Royal College of Music, la Guildhall School of Music and Drama y el Trinity Laban Conservatoire of Music and Dance.
+                            Los Abbey Road Studios en el n.º 3 de la calle Abbey Road, Ciudad de Westminster, Londres. En la ciudad hay gran cantidad de lugares para conciertos de música rock y pop, entre ellos grandes estadios como Earls Court, Wembley Arena y O2 Arena, y locales de tamaño mediano como Brixton Academy, Hammersmith Apollo y Shepherds Bush Empire.</p>
+                        
+                    </article>
+                    <article class = "city1">
+                        <p class = "marginCity">Merewether</p>
+                        <%= image_tag "/images/merewether_1.jpg", :class => "dimImag", :name=> "slide4" %>
+                        <p class = "marginGrunge">Merewether es un suburbio de Newcastle , Nueva Gales del Sur , Australia , situado a 3 km (2 millas) de del Newcastle distrito central de negocios con una población de alrededor de 10.000. El barrio se extiende 3 kilometros (2 millas) de Merewether Beach en el este hasta Adamstown en el oeste.
+                        El suburbio de Merewether incluye algunas de las playas más famosas de Newcastle. Dixon Park Beach conduce hacia el sur en la playa de Merewether y un poco más a la más aislada Burwood Beach, que conduce a la Laguna de Glenrock . En el extremo sur de la playa de Merewether son la Merewether océano baños, los baños más grandes del océano en el hemisferio sur.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Esta es la ruta...¡¡Animate!!</h2>
+                                
+                <article class = "map_canvas" id="map_canvas">
+                    
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class = "colocFooter fondoGrungeFooter">
+        <div class="container text-center">
+            <ul class = "ulFooter">
+                <li class = "footLiGrunge darkLetter">Quienes somos</li>
+                <li class = "footLiGrunge darkLetter">Contactanos</li>
+                <li class = "footLiGrunge darkLetter">Trabaja con nosotros<li>
+            </ul>
+        </div>
+    </footer>
+   
+    

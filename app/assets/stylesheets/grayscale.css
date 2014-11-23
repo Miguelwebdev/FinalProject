@@ -173,6 +173,15 @@ a:focus {
     -o-background-size: cover;
 }
 
+.jazzHeader
+{
+    background: url(/images/jazzHeader2.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
