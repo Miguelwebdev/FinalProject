@@ -23,6 +23,11 @@
 	background-image:url('/images/footerRock.jpg');
 }
 
+.fondoPopFooter
+{
+	background-image:url('/images/footerPop.jpg');
+}
+
 	.ulFooter
 	{
 		list-style:none;

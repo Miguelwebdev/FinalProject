@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require bootstrap.min
 //= require grayscale
-//= require slider2
-//= require geoloc2
+//= require slider3
+//= require geoloc3
