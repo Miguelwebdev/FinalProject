@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require pages
+//= require bootstrap.min
+//= require grayscale
+//= require slider2
+//= require geoloc2

@@ -8,14 +8,15 @@ class PagesController < ApplicationController
   end
 
   def rock
-    render layout: 'grayscaleFather'
+    render layout: 'grayscaleFather2'
   end
 
-  def jazz
-   
-  end
 
   def pop
-
+    render layout: 'grayscaleFather3'
+  end
+  
+  def jazz
+    
   end
 end

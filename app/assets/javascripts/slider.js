@@ -76,10 +76,16 @@ function swapImage4()
 
 
 
+
+
+
+
 window.onload= function(){
-	swapImage();
-	swapImage2();
-	swapImage3();
-	swapImage4();
+   swapImage();
+   swapImage2();
+   swapImage3();
+   swapImage4();
+  
+
    
 }
