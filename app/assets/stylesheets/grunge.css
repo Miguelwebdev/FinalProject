@@ -30,3 +30,8 @@
 		margin-top:6%;
 		font-family: arial;
 	}
+
+	.footerRock
+	{
+		background-image: url("/images/footerRock.jpg");
+	}

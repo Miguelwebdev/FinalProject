@@ -2,6 +2,7 @@ var i = 0;
 var j = 0;
 var z = 0;
 var k = 0;
+var q = 0;
 
 var path = new Array();
 
@@ -30,6 +31,7 @@ var path4 = new Array();
 path4[0] = "/images/merewether_1.jpg";
 path4[1] = "/images/merewether_2.jpg";
 path4[2] = "/images/merewether_3.jpg";
+
 
 function swapImage()
 {
@@ -73,9 +75,11 @@ function swapImage4()
 }
 
 
+
 window.onload= function(){
 	swapImage();
 	swapImage2();
 	swapImage3();
 	swapImage4();
+   
 }

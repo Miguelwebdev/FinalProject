@@ -11,7 +11,16 @@
 {
 
 	height:100px;
+}
+
+.fondoGrungeFooter
+{
 	background-image:url('/images/grungeImage2.jpg');
+}
+
+.fondoRockFooter
+{
+	background-image:url('/images/footerRock.jpg');
 }
 
 	.ulFooter

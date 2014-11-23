@@ -16,4 +16,6 @@
 //= require pages
 //= require grayscale
 //= require slider
+//= require slider2
 //= require geoloc
+//= require geoloc2

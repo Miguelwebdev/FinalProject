@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   end
 
   def rock
-   
+    render layout: 'grayscaleFather'
   end
 
   def jazz
