@@ -1,0 +1,37 @@
+
+.posdiv
+{
+	position:relative;
+}
+
+	.city1, .city2, .city3, .city4
+	{
+		width: 100%;
+		border: 2px solid white;
+		border-radius: 3%;
+		float: left;
+		margin-right: 5%;
+		margin-top: 6%;
+	}
+
+	.marginCity
+	{
+		margin-top:2%;
+	}
+
+	.dimImag
+	{
+		width:71%;
+		height:245px;
+	}
+
+	.marginGrunge
+	{
+		margin-top:6%;
+		font-family: arial;
+	}
+
+	.footerRock
+	{
+		background-image: url("/images/footerRock.jpg");
+	}

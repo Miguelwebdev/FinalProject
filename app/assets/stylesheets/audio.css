@@ -1,0 +1,54 @@
+.margAudio
+{
+	width:27%;
+	position:absolute;
+	top:20%;
+	left:23%;
+}
+
+
+.colocFooter
+{
+
+	height:100px;
+}
+
+.fondoGrungeFooter
+{
+	background-image:url('/images/grungeImage2.jpg');
+}
+
+.fondoRockFooter
+{
+	background-image:url('/images/footerRock.jpg');
+}
+
+.fondoPopFooter
+{
+	background-image:url('/images/footerPop3.jpg');
+}
+
+.fondoJazzFooter
+{
+	background-image:url('/images/footerJazz.jpg');
+}
+
+	.ulFooter
+	{
+		list-style:none;
+		margin-left:1%;
+
+	}
+		.footLiGrunge
+		{
+			margin: 0% 9%;
+			float: left;
+			font-family: arial;
+			font-size: 20px;
+
+		}
+
+		.darkLetter
+		{
+			text-shadow: 1px 1px black;
+		}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProyectoFinal</title>
+  <%= stylesheet_link_tag    'grayscaleFather' %>
+  <%= javascript_include_tag 'grayscaleFather', defer: :true  %>
+  <%= javascript_include_tag 'grayscaleFather', "https://maps.googleapis.com/maps/api/js" %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<%= yield %>
+
+  
+
+</body>
+</html>

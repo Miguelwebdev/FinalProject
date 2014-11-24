@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  #devise_for :users
   get '/front' => 'pages#front'
   get '/grunge' => 'pages#grunge'
+  get '/rock' => 'pages#rock'
+  get '/pop' => 'pages#pop'
+  get '/jazz' => 'pages#jazz'
 end
 
 
@@ -25,7 +29,7 @@ end
   #     member do
   #       get 'short'
   #       post 'toggle'
-  #     end
+  #     end 
   #
   #     collection do
   #       get 'sold'
