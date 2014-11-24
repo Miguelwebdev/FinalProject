@@ -22,30 +22,30 @@ path17[2] = "/images/hamlet3.jpg";
 var path18 = new Array();
 
 // LIST OF IMAGES5 LOS ANGELES
-path18[0] = "/images/dublin1.jpg";
-path18[1] = "/images/dublin2.jpg";
-path18[2] = "/images/dublin3.jpg";
+path18[0] = "/images/philadelpia1.jpg";
+path18[1] = "/images/philadelpia2.jpg";
+path18[2] = "/images/philadelpia3.jpg";
 
 var path19 = new Array();
 
 // LIST OF IMAGES TEIGH
-path19[0] = "/images/stafford1.jpg";
-path19[1] = "/images/stafford2.jpg";
-path19[2] = "/images/stafford3.jpg";
+path19[0] = "/images/esex1.jpg";
+path19[1] = "/images/esex2.jpg";
+path19[2] = "/images/esex3.jpg";
 
 var path20 = new Array();
 
 // LIST OF IMAGES PLASENCIA
-path20[0] = "/images/minne1.jpg";
-path20[1] = "/images/minne2.jpg";
-path20[2] = "/images/minne3.jpg";
+path20[0] = "/images/mountain1.jpg";
+path20[1] = "/images/mountain2.jpg";
+path20[2] = "/images/mountain3.jpg";
 
 var path21 = new Array();
 
 // LIST OF IMAGES PLASENCIA
-path21[0] = "/images/limerick1.jpg";
-path21[1] = "/images/limerick2.jpg";
-path21[2] = "/images/limerick3.jpg";
+path21[0] = "/images/misuri1.jpg";
+path21[1] = "/images/misuri2.jpg";
+path21[2] = "/images/misuri3.jpg";
 
 function swapImage16()
 {
@@ -71,7 +71,7 @@ function swapImage17()
 function swapImage18()
 {
    document.slide18.src = path18[v];
-   if(v < path12.length - 1)
+   if(v < path18.length - 1)
          v++;
    else 
          v = 0;

@@ -15,4 +15,4 @@
 //= require bootstrap.min
 //= require grayscale
 //= require slider4
-//= require geoloc3
+//= require geoloc4

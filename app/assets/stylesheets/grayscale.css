@@ -326,6 +326,15 @@ a:focus {
     -o-background-size: cover;
 }
 
+.jazzSecond
+{
+    background: url(/images/jazzSecond.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #map {
     width: 100%;
     height: 200px;

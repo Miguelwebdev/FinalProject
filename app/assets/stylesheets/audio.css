@@ -28,6 +28,11 @@
 	background-image:url('/images/footerPop3.jpg');
 }
 
+.fondoJazzFooter
+{
+	background-image:url('/images/footerJazz.jpg');
+}
+
 	.ulFooter
 	{
 		list-style:none;
