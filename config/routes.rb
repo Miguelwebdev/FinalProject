@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
+  devise_for :users
   #devise_for :users
   get '/front' => 'pages#front'
   get '/grunge' => 'pages#grunge'
   get '/rock' => 'pages#rock'
   get '/pop' => 'pages#pop'
   get '/jazz' => 'pages#jazz'
+
+  post '/trips/travel/:id' => 'trips#create', as: :create_trip
+
+
+  root 'pages#front'
 end
 
 

@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+travel1 = Travel.create(travel: 'Grunge')
+travel2 = Travel.create(travel: 'Rock')
+travel4 = Travel.create(travel: 'Pop')
+travel5 = Travel.create(travel: 'Jazz')
