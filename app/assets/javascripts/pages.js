@@ -1,6 +1,6 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
-var images=new Array('/images/rockConcert2.jpg','/images/rockConcert3.jpg','/images/rockConcert4.jpg', '/images/rockConcert7.png', './images/rockConcert8.jpg');
+var images=new Array('/images/rockConcert2.jpg','/images/rockConcert3.jpg','/images/rockConcert10.jpg', '/images/rockConcert7.png', './images/rockConcert100.jpg');
 var nextimage=0;
 
 doSlideshow();
