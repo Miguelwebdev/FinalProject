@@ -56,11 +56,14 @@
                     </div>
                 </div>
             </div>
-         <% if @travels.map(&:travel).include?('Grunge') %>
-           <%= link_to 'Viaje realizado', grunge_path %> 
-         <% else %>
-           <%= link_to 'Agregar viaje', create_trip_path(@travel.id), method: :post %>
-         <% end %>
+             <% if @travels.map(&:travel).include?('Grunge') %>
+               <div class = "travelRegister travelText">
+                 Viaje realizado
+               </div> 
+             <% else %>
+               <div class = "travelRegister"><%= link_to 'Agregar viaje', create_trip_path(@travel.id), method: :post, class: "travelText" %>
+               </div>
+             <% end %>
         </div>
     </header>
 

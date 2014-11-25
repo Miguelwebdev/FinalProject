@@ -39,6 +39,9 @@
 
     <!-- Intro Header -->
     <header class="intro jazzHeader ">
+        <% @travel.users.each do |user| %>
+         <%= user.name %>
+        <% end %>
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -51,6 +54,15 @@
                     </div>
                 </div>
             </div>
+            <% if @travels.map(&:travel).include?('Jazz') %>
+               <div class = "travelRegister travelText">
+                 Viaje realizado    
+               </div> 
+             <% else %>
+               <div class = "travelRegister"><%= link_to 'Agregar viaje', create_trip_path(@travel.id), method: :post, class: "travelText" %>
+               </div>
+             <% end %>
+
         </div>
     </header>
 

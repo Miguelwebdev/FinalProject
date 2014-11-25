@@ -1,0 +1,22 @@
+
+             .travelRegister
+            {
+                list-style: none;
+                border: 2px solid white;
+                width: 9%;
+                height: 31px;
+                padding-top: 0.2%;
+                text-align: center;
+                position: absolute;
+                left: 1%;
+                bottom: 4%;
+                
+            }
+
+                .travelText
+                    {
+                       color: white;
+                       font-family: arial;
+                       font-size: 112%;
+                         
+                    }    
