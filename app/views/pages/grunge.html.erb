@@ -47,7 +47,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <%= link_to 'He hecho este viaje!', create_trip_path(@travel.id), method: :post %> 
+                       
                         <h1 class="brand-heading darkLetter">Ruta del</br> Grunge</h1>
                         <p class="intro-text darkLetter">Un viaje por los lugares<br>más emblemáticos de este movimiento</p>
                         <a href="#about" class="btn btn-circle page-scroll">
@@ -56,6 +56,11 @@
                     </div>
                 </div>
             </div>
+         <% if @travels.map(&:travel).include?('Grunge') %>
+           <%= link_to 'Viaje realizado', grunge_path %> 
+         <% else %>
+           <%= link_to 'Agregar viaje', create_trip_path(@travel.id), method: :post %>
+         <% end %>
         </div>
     </header>
 

@@ -1,6 +1,18 @@
 <body class = "initColor">
 	<div class="slideshow">
-    	<h1 class = "tittle">Las grandes rutas de la música</h1>
+    	<% if user_signed_in? %>
+        
+        <div class = "logoutRegister">
+        <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "logoutText" %>
+        </div>
+    <% else %>
+        <ul class = "frontul">
+            <li class = "register"><%= link_to 'Login', new_user_session_path, class: "loginText"  %></li>
+            <li class = "register"><%= link_to 'Sign up', new_user_registration_path, class: "loginText"  %></li>
+        </ul>
+    <% end %>
+
+        <h1 class = "tittle">Las grandes rutas de la música</h1>
 
     	<article class = "presentation">Te ofrecemos un viaje</br> inigualable en función del</br> estilo musical que prefieras</article>
 
