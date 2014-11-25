@@ -13,17 +13,17 @@ path5[2] = "/images/seattle3.jpg";
 var path6 = new Array();
 
 // LIST OF IMAGES3
-path6[0] = "/images/londres1.jpg";
-path6[1] = "/images/londres2.jpg";
-path6[2] = "/images/londres3.jpg";
+path6[0] = "/images/losAngeles1.jpg";
+path6[1] = "/images/losAngeles2.jpg";
+path6[2] = "/images/losAngeles3.jpg";
 
 
 var path7 = new Array();
 
 // LIST OF IMAGES5 LOS ANGELES
-path7[0] = "/images/losAngeles1.jpg";
-path7[1] = "/images/losAngeles2.jpg";
-path7[2] = "/images/losAngeles3.jpg";
+path7[0] = "/images/londres1.jpg";
+path7[1] = "/images/londres2.jpg";
+path7[2] = "/images/londres3.jpg";
 
 var path8 = new Array();
 
